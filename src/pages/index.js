@@ -1,5 +1,7 @@
 import styles from "../styles/modules/Home.module.scss";
 
+import Header from "../components/Header";
+
 import Head from "next/head";
 
 export default function Home() {
@@ -10,7 +12,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div></div>
+      <div className={styles.home}>
+        <Header />
+      </div>
     </>
   );
 }
