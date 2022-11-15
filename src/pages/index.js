@@ -1,8 +1,7 @@
-import styles from "../styles/modules/Home.module.scss";
-
 import Header from "../components/Header";
 
 import Head from "next/head";
+import Feed from "../components/Feed";
 
 export default function Home() {
   return (
@@ -12,8 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={styles.home}>
+      <div className="w-full h-full bg-neutral-50 font-thin">
         <Header />
+        <Feed />
       </div>
     </>
   );
