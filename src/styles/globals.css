@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .post-subtitle {
+    @apply text-2xl font-bold tablet:text-[28px] desktop:text-4xl text-[#071d2b];
+  }
+  .post-text {
+    @apply desktop:pr-48 text-[16px] tablet:text-[22px] desktop:text-xl text-[#071d2b];
+  }
+  .post-divider {
+    @apply space-y-3 desktop:space-y-6 desktop:pl-48 desktop:pr-96 font-thin text-left;
+  }
+}

@@ -1,9 +1,9 @@
 export default function Post() {
   return (
-    <div className="border-[1px] bg-white">
+    <div className="">
       <div className="flex flex-col p-3 space-y-3">
         <div className="space-y-3">
-          <h2 className="text-center uppercase font-roboto font-bold text-2xl">
+          <h2 className="text-center font-roboto font-bold text-6xl">
             El modelo en cascada: desarrollo secuencial de software
           </h2>
           <div className="space-y-3">
@@ -21,7 +21,7 @@ export default function Post() {
             </p>
           </div>
           <div className="space-y-3">
-            <h3 className="font-roboto font-bold text-xl">
+            <h3 className="font-roboto font-bold text-xl text-[#071d2b]">
               ¿Cómo funciona el modelo en cascada?
             </h3>
             <p className="text-md desktop:text-xl">
