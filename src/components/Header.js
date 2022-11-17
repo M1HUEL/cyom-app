@@ -6,7 +6,7 @@ export default function Header() {
       <div className="border-b-[1px] px-6 py-6 desktop:px-12 desktop:py-6">
         <div className="flex flex-row items-center justify-between desktop:justify-evenly">
           <div className="">
-            <h1 className="cursor-pointer font-sans font-bold text-2xl desktop:text-3xl">
+            <h1 className="cursor-pointer font-bold font-radio text-2xl desktop:text-4xl text-[#071d2b]">
               Cyom
             </h1>
           </div>

@@ -16,32 +16,39 @@ export default function Home() {
       <div className="w-full h-full bg-neutral-50 font-thin font-radio">
         <Header />
         <main className="flex flex-col">
-          <div className="flex flex-col space-y-8 desktop:space-y-18 justify-center text-center pl-2 pr-2 pt-4 tablet:pl-8 tablet:pr-8 desktop:pl-58 desktop:pr-58 tablet:pt-6 desktop:pt-12">
-            <div className="pl-2 pr-2 tablet:pl-4 tablet:pr-4 desktop:pl-32 desktop:pr-32 flex flex-col space-y-6 desktop:space-y-12">
-              <h1 className="font-bold text-3xl tablet:text-4xl desktop:text-8xl text-[#071d2b]">
-                Metodología de espiral: fases y desarrollo
-              </h1>
-              <p className="tablet:pl-18 tablet:pr-18 desktop:pl-48 desktop:pr-48 font-normal text-[16px] tablet:text-[22px] desktop:text-xl text-left text-[#071d2b]">
-                De cara a afrontar el desarrollo de software, existen varios
-                métodos bastante comunes y utilizados, siendo el modelo en
-                cascada (waterfall) y el modelo por iteraciones dos de los más
-                habituales.
-              </p>
-              <p className="tablet:pl-18 tablet:pr-18 desktop:pl-48 desktop:pr-48 font-normal text-[16px] tablet:text-[22px] desktop:text-xl text-left text-[#071d2b]">
-                Como combinación de ambos surge la metodología espiral, una
-                forma de gestión del desarrollo de software que trata de obtener
-                las principales ventajas de los dos anteriores mientras cubre
-                sus principales inconvenientes.
-              </p>
+          {/* flex flex-col space-y-8 desktop:space-y-18 justify-center text-center pl-2 pr-2 pt-4 tablet:pl-8 tablet:pr-8 desktop:pl-58 desktop:pr-58 tablet:pt-6 desktop:pt-12 bg-red-400 */}
+          <div className="flex flex-col ml-3 tablet:ml-12 desktop:ml-80 mr-3 tablet:mr-12 desktop:mr-80 mt-3 tablet:mt-6 desktop:mt-12 space-y-4 tablet:space-y-8 desktop:space-y-12">
+            {/* tablet:pl-4 tablet:pr-4 desktop:pl-32 desktop:pr-32 flex flex-col space-y-6 desktop:space-y-1 */}
+            <div className="flex flex-col items-center pl-4 pr-4 pt-6 pb-6 space-y-3 tablet:space-y-6 desktop:space-y-12">
+              <div>
+                <h1 className="main-title">
+                  Metodología de espiral: fases y desarrollo
+                </h1>
+              </div>
+              <div>
+                {/* tablet:pl-18 tablet:pr-18 desktop:pl-48 desktop:pr-48 font-normal text-[16px] tablet:text-[22px] desktop:text-xl text-left text-[#071d2b] */}
+                <h2 className="main-subtitle">
+                  De cara a afrontar el desarrollo de software, existen varios
+                  métodos bastante comunes y utilizados, siendo el modelo en
+                  cascada (waterfall) y el modelo por iteraciones dos de los más
+                  habituales.
+                </h2>
+                <h2 className="main-subtitle">
+                  Como combinación de ambos surge la metodología espiral, una
+                  forma de gestión del desarrollo de software que trata de
+                  obtener las principales ventajas de los dos anteriores
+                  mientras cubre sus principales inconvenientes.
+                </h2>
+              </div>
+              <div className="">
+                <img
+                  src="https://images6.alphacoders.com/100/1001871.jpg"
+                  alt="img"
+                  className="desktop:w-[100vw] desktop:h-[400px] object-cover rounded-bl-[50px] desktop:rounded-bl-[50px] rounded-tr-[50px] desktop:rounded-tr-[50px]"
+                />
+              </div>
             </div>
-            <div className="pl-2 pr-2 flex flex-col justify-center text-center align-center m-auto">
-              <img
-                src="https://images6.alphacoders.com/100/1001871.jpg"
-                alt="img"
-                className="desktop:w-[1200px] desktop:h-[600px] rounded-bl-[100px] desktop:rounded-bl-[200px] rounded-tr-[100px] desktop:rounded-tr-[200px]"
-              />
-            </div>
-            <div className="pl-2 pr-2 pt-12 flex flex-col space-y-8 desktop:space-y-12">
+            <div className="pl-32 pr-60 flex flex-col space-y-8 desktop:space-y-12">
               <div className="post-divider">
                 <h3 className="post-subtitle">
                   ¿Qué es la metodología de espiral?
