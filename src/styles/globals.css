@@ -4,18 +4,18 @@
 
 @layer components {
   .main-title {
-    @apply font-bold text-center text-3xl tablet:text-4xl desktop:text-8xl text-[#071d2b];
+    @apply font-bold text-center text-3xl tablet:text-6xl desktop:text-8xl text-[#071d2b];
   }
   .main-subtitle {
-    @apply font-normal text-center text-sm desktop:text-xl text-[#071d2b];
+    @apply text-left desktop:text-center text-[16px] tablet:text-[24px] desktop:text-[26px] text-[#071d2b];
   }
   .post-subtitle {
-    @apply text-2xl font-bold tablet:text-[28px] desktop:text-4xl text-[#071d2b];
+    @apply text-2xl font-bold tablet:text-[36px] desktop:text-4xl text-[#071d2b];
   }
   .post-text {
-    @apply desktop:pr-48 text-[16px] tablet:text-[22px] desktop:text-xl text-[#071d2b];
+    @apply desktop:pr-48 text-[16px] tablet:text-[24px] desktop:text-xl text-[#071d2b];
   }
   .post-divider {
-    @apply space-y-3 desktop:space-y-6 font-thin text-left;
+    @apply space-y-12 font-thin text-left;
   }
 }

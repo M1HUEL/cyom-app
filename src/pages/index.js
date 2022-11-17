@@ -13,19 +13,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="w-full h-full bg-neutral-50 font-thin font-radio">
+      <div className="w-full h-full font-thin font-radio">
         <Header />
         <main className="flex flex-col">
           {/* flex flex-col space-y-8 desktop:space-y-18 justify-center text-center pl-2 pr-2 pt-4 tablet:pl-8 tablet:pr-8 desktop:pl-58 desktop:pr-58 tablet:pt-6 desktop:pt-12 bg-red-400 */}
-          <div className="flex flex-col ml-3 tablet:ml-12 desktop:ml-80 mr-3 tablet:mr-12 desktop:mr-80 mt-3 tablet:mt-6 desktop:mt-12 space-y-4 tablet:space-y-8 desktop:space-y-12">
+          <div className="flex flex-col ml-3 desktop:ml-56 mr-3 desktop:mr-56 mt-3 tablet:mt-6 desktop:mt-12 space-y-4 tablet:space-y-8 desktop:space-y-12">
             {/* tablet:pl-4 tablet:pr-4 desktop:pl-32 desktop:pr-32 flex flex-col space-y-6 desktop:space-y-1 */}
-            <div className="flex flex-col items-center pl-4 pr-4 pt-6 pb-6 space-y-3 tablet:space-y-6 desktop:space-y-12">
+            <div className="flex flex-col items-center pl-2 desktop:pl-4 pr-2 desktop:pr-4 pt-6 pb-6 space-y-3 tablet:space-y-6 desktop:space-y-12">
               <div>
                 <h1 className="main-title">
                   Metodología de espiral: fases y desarrollo
                 </h1>
               </div>
-              <div>
+              <div className="desktop:pl-16 desktop:pr-16">
                 {/* tablet:pl-18 tablet:pr-18 desktop:pl-48 desktop:pr-48 font-normal text-[16px] tablet:text-[22px] desktop:text-xl text-left text-[#071d2b] */}
                 <h2 className="main-subtitle">
                   De cara a afrontar el desarrollo de software, existen varios
@@ -48,7 +48,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="pl-32 pr-60 flex flex-col space-y-8 desktop:space-y-12">
+            <div className="pl-2 pr-2 tablet:pl-6 desktop:pl-16 tablet:pr-16 desktop:pr-42 flex flex-col space-y-8 desktop:space-y-12">
               <div className="post-divider">
                 <h3 className="post-subtitle">
                   ¿Qué es la metodología de espiral?
@@ -73,6 +73,26 @@ export default function Home() {
                   exponiendo que si podemos controlar los riesgos no habría
                   ningún motivo que impida el éxito del mismo.
                 </p>
+              </div>
+              <div className="shadow">
+                <div className="py-2 px-2 rounded-tl-md rounded-tr-md bg-[#E45750C4]">
+                  <p className="font-bold tablet:text-[24px] desktop:2xl text-white">Contenido</p>
+                </div>
+                <div className="flex flex-col ml-6 py-2 px-2">
+                  <ul className="list-disc space-y-3 text-xs tablet:text-[18px] desktop:xl">
+                    <li>¿Qué es la especificación de requisitos?</li>
+                    <li>¿Qué es un requisito del sistema?</li>
+                    <li>¿Qué es un requisito de usuario?</li>
+                    <li>
+                      ¿Qué son los requisitos funcionales y no funcionales?
+                    </li>
+                    <li>
+                      ¿Cuáles son los beneficios de tener una especificación de
+                      requisitos?
+                    </li>
+                    <li>¿Estándares para los requisitos de escritura?</li>
+                  </ul>
+                </div>
               </div>
               <div className="post-divider">
                 <h3 className="post-subtitle">
